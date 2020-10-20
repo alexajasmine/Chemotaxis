@@ -29,7 +29,7 @@ class Chemo
     myX = (int)(Math.random()*400);
     myY = (int)(Math.random()*400);
     mySize = (int)(Math.random()*80)+20;
-    mySpeed = mySize/10.0;
+    mySpeed = mySize/9.0;
   }
   void move()
   {
@@ -54,12 +54,12 @@ class Chemo
     
     fill(myColor); 
     stroke(myColor); 
-    ellipse(myX,myY,7,7);
-    ellipse(myX-17,myY+10,7,7);
-    ellipse(myX+17,myY+10,7,7);
-    ellipse(myX,myY+40,7,7);
-    ellipse(myX-17,myY+30,7,7);
-    ellipse(myX+17,myY+30,7,7);
+    ellipse(myX,myY,12,12);
+    ellipse(myX-17,myY+10,12,12);
+    ellipse(myX+17,myY+10,12,12);
+    ellipse(myX,myY+40,12,12);
+    ellipse(myX-17,myY+30,12,12);
+    ellipse(myX+17,myY+30,12,12);
     
   }
 }
